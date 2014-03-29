@@ -11,17 +11,7 @@ body {
 	min-width: 960px;
 	overflow:auto;
 	background-image:url(../../images/background.jpg);
-}
-
-h1, h2, h3 {
-	margin: 0px;
-	text-transform: uppercase;
-}
-
-h1 {
-	font-weight:normal;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -30,42 +20,7 @@ a {
 a:hover {
 	color: #000;
 }
-      
-.sidebar-nav {
-	position:fixed;
-	top:120px;
-	text-transform: uppercase;
-	width:15%;
-}
-.sidebar-nav li {
-	margin:-4px;
-	margin-left:10px;
-	font-size:75%;
-}
 
-.content-col {
-	/*padding:10px;*/
-	border: 2px solid #000;
-}
-
-.content-col h3 {
-	margin-left:5%;
-}
-
-.content-col p{
-	width:90%;
-	margin:auto;
-	margin-bottom:10px;
-	font-size:75%;
-}
-
-.content-col{
-	background-color: rgba(0,0,0,0.5);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)\9;
-	zoom: 1;
-	/*padding:10px;*/
-}
 
 .nav > li > a:hover, .nav > li > a:focus {
 background-color:transparent;
@@ -98,21 +53,53 @@ background-color:transparent;
 	background: linear-gradient(to right, #c5deea 0%,#0096d7 0%,#004693 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#004693',GradientType=1 ); /* IE6-8 */
 }
+
+.title{
+	padding-left: 30px;
+}
+
+.title h1{
+	margin-top: 5px !important;
+	font-size: 36pt !important;
+	line-height: 36pt !important;
+	font-weight: normal !important;
+}
+.title h4{
+	font-size: 22pt !important;
+	line-height: 14pt !important;
+	font-weight: 400 !important;
+	font-style: italic !important;
+}
+
 .logo{
 	display: block;
 	float:right;
-	/*background-image: url(../../images/logo.png);
-	background-repeat:no-repeat;
-	width:226px;
-	height: 133px;*/
 }
 .main{
 	margin-top: 130px;
 }
 
 .footer{
-	height:20%;/*130px;*/
 	background-color: #222;
+	
+}
+
+.footer .span12 p{
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+	margin-bottom: 0px !important;
+	color:#fff;
+	font-size: 13px!important;
+	line-height: 18px!important;
+}
+.footer .span12 h5{
+	line-height: 18px !important;
+	margin-bottom: 0px !important;
+}
+
+.footer .span12{
+	margin-left: 30px !important;
+	margin-bottom: 10px !important;
 }
 .navbar{
 	background-color:#004693;
@@ -120,22 +107,20 @@ background-color:transparent;
 }
 
 .navbar-inner{
-	height: 30px;
-	margin-top: 10px;
+	min-height: 25px  !important;
+	margin-bottom: 0px!important;
 	background-color:#004693!important;
 	background-image: none!important;
 	border: none !important;
+	padding-left: 15px !important;
 }
 
 .navbar .nav > li > a{
 	text-shadow: none!important;
 	color:#fff ;
-	padding-right: 25px !important;
 }
-.title{
-	padding-top: 10px;
-	padding-left:15px;
-}
+
+
 
 @media (max-width: 480px) {
 
