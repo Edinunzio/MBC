@@ -10,7 +10,6 @@ body {
 	background-size: cover;
 	min-width: 960px;
 	overflow:auto;
-	background-image:url(../../images/background.jpg);
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -29,15 +28,15 @@ background-color:transparent;
 	padding: 0px !important;
 }
 .overlay{
-	background-color:#ff0000;
-	background-image:url(../../images/background.jpg);
+	background-color: transparent;
+	background-image:url(../../images/red_banner.png);
 	background-repeat:no-repeat;
 	background-position:center; 
 	position:absolute;
-	width:30%;
-	height:10%;
+	width:323px;
+	height:133px;
 	right:0;
-	bottom:0;
+	bottom:30%;
 }
 
 .header{
@@ -81,6 +80,10 @@ background-color:transparent;
 	margin-top: 130px;
 }
 
+.navbar-fixed-top{
+	margin-bottom: 0px !important;
+}
+
 .footer{
 	background-color: #222;
 	
@@ -103,26 +106,52 @@ background-color:transparent;
 	margin-left: 40px !important;
 	margin-bottom: 10px !important;
 }
-.navbar{
-	background-color:#004693;
-	margin-bottom: 0px!important;
-	height: 32px!important;
+
+.sobro{
+	margin-right: 10%;
+	margin-top: 10px;
 }
 
-.navbar-inner{
-	min-height: 25px  !important;
-	margin-bottom: 0px!important;
-	background-color:#004693!important;
-	background-image: none!important;
-	border: none !important;
-	padding-left: 28px !important;
-	height: 35px!important;
+.navbar{
+	background-color:#004693;
+	margin-bottom: 0px !important;
+	height: 35px !important;
+}
+
+.navbar-form input, .navbar-form .btn{
+	background-color: transparent !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	-webkit-box-shadow:none!important;
+	border: none!important;
+}
+
+
+.navbar-form .btn{
+	background-image: url(../../images/search_off.png);
+	background-repeat: no-repeat;
+	width:17px;
+	height:17px;
+}
+
+.btn:hover,
+.btn:focus {
+	background-position: 0 0 !important;
+  -webkit-transition: background-position 0 linear !important;
+     -moz-transition: background-position 0 linear !important;
+       -o-transition: background-position 0 linear !important;
+          transition: background-position 0 linear !important;
+	}
+
+.navbar .nav {
+	margin-left: 30px !important;
 }
 
 .navbar .nav  li  a{
 	text-shadow: none!important;
 	color:#fff ;
-	font-size: 12px;
+	font-size: 12pt;
+	line-height: 12pt;
 	text-transform: uppercase;
 	/*padding:10px!important;*/
 }
