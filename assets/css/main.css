@@ -8,7 +8,6 @@ body {
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/*min-width: 960px;*/
 	overflow:auto;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -20,31 +19,14 @@ a:hover {
 	color: #000;
 }
 
-
 .nav > li > a:hover, .nav > li > a:focus {
 background-color:transparent;
 }
 .container-fluid {
 	padding: 0px !important;
 }
-.overlay{
-	background-color: transparent;
-	background-image:url(../../images/red_banner.png);
-	background-repeat:no-repeat;
-	background-position:center; 
-	position:absolute;
-	width:323px;
-	height:133px;
-	right:0;
-	bottom:30%;
-}
 
-.overlay h2 {
-	margin: 15% 10% 15% 20%;
-	font-size: 26pt;
-	line-height: 30pt;
-}
-
+/*  header */
 .header{
 	display: block;
 	height: 130px!important;
@@ -79,54 +61,35 @@ background-color:transparent;
 }
 
 .logo{
-	/*display: block;
-	float:right;*/
 	position: absolute;
 	top: 0px;
 	right: 0px;
 }
+
+/*  /header */
+
+/* main div */
 .main{
 	margin-top: 130px;
 	overflow: hidden;
+	min-height: 600px;
+}
+.main h5{
+	color: #DC3027;
+	font-size: 13pt;
+	line-height: 18pt;
+}
+.main p{
+	color:#222;
 }
 
+/*  /main div */
+
+/*  navigation */
 .navbar-fixed-top{
 	margin-bottom: 0px !important;
 	width: 100% !important;
 	min-width: 1020px !important;
-}
-
-.footer{
-	background-color: #222;
-	overflow: hidden;
-}
-
-.slides {
-	position: fixed;
-}
-
-
-.footer .span12 p{
-	margin-top: 0px !important;
-	margin-left: 0px !important;
-	margin-bottom: 0px !important;
-	color:#fff;
-	font-size: 13px!important;
-	line-height: 18px!important;
-}
-.footer .span12 h5{
-	line-height: 18px !important;
-	margin-bottom: 0px !important;
-}
-
-.footer .span12{
-	margin-left: 40px !important;
-	margin-bottom: 10px !important;
-}
-
-.sobro{
-	margin-right: 10%;
-	margin-top: 10px;
 }
 
 .navbar{
@@ -145,8 +108,6 @@ background-color:transparent;
 
 
 form.navbar-form {
-	/*margin-right:-18px;
-	padding-right:30px;*/
 	position: absolute;
 	right:210px;
 	bottom:0px;
@@ -196,7 +157,8 @@ form.active {
 	font-size: 12pt;
 	line-height: 12pt;
 	text-transform: uppercase;
-	/*padding:10px!important;*/
+	padding:0px;
+	margin:10px 15px 10px;
 }
 
 .navbar .nav  .active  a{
@@ -206,6 +168,61 @@ form.active {
 	font-weight: bold !important;
 	color:#fff !important;
 }
+/*  /navigation */
+
+/* footer */
+
+.footer{
+	background-color: #222;
+	overflow: hidden;
+}
+
+.footer .span12 p{
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+	margin-bottom: 0px !important;
+	color:#fff;
+	font-size: 13px!important;
+	line-height: 18px!important;
+}
+.footer .span12 h5{
+	line-height: 18px !important;
+	margin-bottom: 0px !important;
+}
+
+.footer .span12{
+	margin-left: 40px !important;
+	margin-bottom: 10px !important;
+}
+
+.sobro{
+	margin-right: 10%;
+	margin-top: 10px;
+}
+
+/*   /footer */
+
+/* home page slideshow */
+.overlay{
+	background-color: transparent;
+	background-image:url(../../images/red_banner.png);
+	background-repeat:no-repeat;
+	background-position:center; 
+	position:absolute;
+	width:323px;
+	height:133px;
+	right:0;
+	bottom:30%;
+}
+
+.overlay h2 {
+	margin: 15% 10% 15% 20%;
+	font-size: 26pt;
+	line-height: 30pt;
+}
+.slides {
+	position: fixed;
+}
 
 .carousel-inner img {
   width: 100% !important;
@@ -214,14 +231,17 @@ form.active {
 .carousel {
 	margin-bottom: 0px !important;
 }
+/* /home page slideshow */
 
+
+/* mobile */
 @media (max-width: 480px) {
 
 	body, .navbar-fixed-top, .main {
 		padding: 0px!important;
 		margin: 0px!important;
 	}
-
+/* /mobile */
 
 
 }
