@@ -98,7 +98,7 @@ background-color:transparent;
 
 .footer{
 	background-color: #222;
-	
+	overflow: hidden;
 }
 
 .slides {
@@ -209,6 +209,10 @@ form.active {
 
 .carousel-inner img {
   width: 100% !important;
+}
+
+.carousel {
+	margin-bottom: 0px !important;
 }
 
 @media (max-width: 480px) {
