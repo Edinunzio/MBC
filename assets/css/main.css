@@ -37,12 +37,12 @@ background-color:transparent;
 	height:133px;
 	right:0;
 	bottom:30%;
-	text-align: right;
 }
 
-.overlay p {
-	margin-right: 10%;
-	margin-top:5%;
+.overlay h2 {
+	margin: 15% 10% 15% 20%;
+	font-size: 26pt;
+	line-height: 30pt;
 }
 
 .header{
