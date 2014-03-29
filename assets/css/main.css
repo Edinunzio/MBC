@@ -130,6 +130,7 @@ background-color:transparent;
 .navbar .nav > li > a{
 	text-shadow: none!important;
 	color:#fff ;
+	padding-right: 25px !important;
 }
 .title{
 	padding-top: 10px;
