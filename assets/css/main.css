@@ -1,5 +1,5 @@
 body {
-	background-color: #000;
+	background-color: #fff;
 	color: #fff;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -8,7 +8,7 @@ body {
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	min-width: 960px;
+	/*min-width: 960px;*/
 	overflow:auto;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -37,6 +37,12 @@ background-color:transparent;
 	height:133px;
 	right:0;
 	bottom:30%;
+	text-align: right;
+}
+
+.overlay p {
+	margin-right: 10%;
+	margin-top:5%;
 }
 
 .header{
@@ -78,6 +84,7 @@ background-color:transparent;
 }
 .main{
 	margin-top: 130px;
+	overflow: hidden;
 }
 
 .navbar-fixed-top{
@@ -88,6 +95,11 @@ background-color:transparent;
 	background-color: #222;
 	
 }
+
+.slides {
+	position: fixed;
+}
+
 
 .footer .span12 p{
 	margin-top: 0px !important;
@@ -162,6 +174,12 @@ background-color:transparent;
 	box-shadow: none !important;
 	font-weight: bold !important;
 	color:#fff !important;
+}
+
+
+
+.carousel-inner img {
+  width: 100% !important;
 }
 
 @media (max-width: 480px) {
