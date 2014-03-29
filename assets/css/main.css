@@ -79,7 +79,7 @@ background-color:transparent;
 }
 
 .logo{
-	display: block;
+	/*display: block;*/
 	float:right;
 }
 .main{
@@ -89,6 +89,8 @@ background-color:transparent;
 
 .navbar-fixed-top{
 	margin-bottom: 0px !important;
+	width: 100% !important;
+	min-width: 1020px !important;
 }
 
 .footer{
@@ -138,6 +140,17 @@ background-color:transparent;
 	border: none!important;
 }
 
+
+form.navbar-form {
+	margin-right:-18px;
+	padding-right:30px;
+}
+
+form.active {
+	background-color: #9e9e9e !important;
+	height: 35px;
+	margin-top: 0px;
+}
 
 .navbar-form .btn{
 	background-image: url(../../images/search_off.png);

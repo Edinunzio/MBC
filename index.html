@@ -15,6 +15,25 @@
 <script>
 $('.company').carousel({
 	});
+
+$( document ).ready(function() {
+	var isActive = false;
+	var navbarForm = $('.navbar-form form');
+	$('.navbar-form button').click(function(){
+		if (isActive === false)
+		{
+			$(this).parent(navbarForm).addClass('active');
+			isActive = true;
+			$(this).parent(navbarForm ).find('input').focus();
+			return false;
+		} else{
+			$(this).parent(navbarForm).removeClass('active');
+			isActive = false
+			$('button.btn').blur();
+			return false;
+		}
+	});
+});
 </script>
 
 <!--[if IE 8]>
@@ -52,9 +71,9 @@ $('.company').carousel({
 						
 					</ul>
 					<form class="navbar-form pull-right">
-							<input type="text" />
-								<button type="submit" class="btn"></button>
-							</form>
+						<input type="text" name="query" />
+						<button type="submit" class="btn search"></button>
+					</form>
 				</div>
 			</div>
 		
