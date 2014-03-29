@@ -59,7 +59,7 @@ a:hover {
 	font-size:75%;
 }
 
-.content-col, ul.nav{
+.content-col{
 	background-color: rgba(0,0,0,0.5);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)\9;
@@ -111,10 +111,30 @@ background-color:transparent;
 }
 
 .footer{
-	height:130px;
+	height:20%;/*130px;*/
 	background-color: #222;
 }
+.navbar{
+	background-color:#004693;
+	margin-bottom: 0px!important;
+}
 
+.navbar-inner{
+	height: 30px;
+	margin-top: 10px;
+	background-color:#004693!important;
+	background-image: none!important;
+	border: none !important;
+}
+
+.navbar .nav > li > a{
+	text-shadow: none!important;
+	color:#fff ;
+}
+.title{
+	padding-top: 10px;
+	padding-left:15px;
+}
 
 @media (max-width: 480px) {
 
