@@ -169,10 +169,13 @@ form.active {
 	position: absolute;
 	width:17px;
 	height:17px;
-	top:8px;
-	right:8px;
+	top:7px;
+	right:12px;
 }
 
+.active .btn{
+	top:10px;
+}
 .btn:hover,
 .btn:focus {
 	background-position: 0 0 !important;
