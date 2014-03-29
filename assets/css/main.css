@@ -1,0 +1,87 @@
+body {
+	background-color: #000;
+	color: #fff;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-width: 960px;
+	overflow:auto;
+	background-image:url(../../images/background.jpg);
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-weight:normal;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	letter-spacing: 1px;
+}
+
+a {
+	color: #fff;
+}
+a:hover {
+	color: #000;
+}
+      
+.sidebar-nav {
+	position:fixed;
+	top:120px;
+	text-transform: uppercase;
+	width:15%;
+}
+.sidebar-nav li {
+	margin:-4px;
+	margin-left:10px;
+	font-size:75%;
+}
+
+.logo{
+	overflow:auto;
+	position:fixed;
+	top:40px;
+	min-width: 233px;
+}
+
+.content-col {
+	/*padding:10px;*/
+	border: 2px solid #000;
+}
+
+.content-col h3 {
+	margin-left:5%;
+}
+
+.content-col p{
+	width:90%;
+	margin:auto;
+	margin-bottom:10px;
+	font-size:75%;
+}
+
+.content-col, ul.nav, .logo{
+	background-color: rgba(0,0,0,0.5);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)\9;
+	zoom: 1;
+	/*padding:10px;*/
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+background-color:transparent;
+}
+.container-fluid {
+	padding: 0px !important;
+}
+
+
+
+
+
