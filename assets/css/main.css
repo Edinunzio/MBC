@@ -110,4 +110,19 @@ background-color:transparent;
 	margin-top: 130px;
 }
 
+.footer{
+	height:130px;
+	background-color: #222;
+}
 
+
+@media (max-width: 480px) {
+
+	body, .navbar-fixed-top, .main {
+		padding: 0px!important;
+		margin: 0px!important;
+	}
+
+
+
+}
