@@ -218,7 +218,6 @@ form.active {
 	margin-left: 5%;
 }
 
-
 .footer .span12{
 	margin-bottom: 10px !important;
 	
@@ -264,13 +263,105 @@ form.active {
 
 
 /* mobile */
+
 @media (max-width: 480px) {
 
-	body, .navbar-fixed-top, .main {
+	body, .navbar-fixed-top{
 		padding: 0px!important;
 		margin: 0px!important;
 	}
+
+/********************* mobile header ****************/
+.navbar-fixed-top{
+	width:320px !important;
+	max-width: 320px !important;
+	min-width: 320px !important;
+	height: 78px! important;
+}
+
+.header{
+	height: 78px!important;
+}
+
+div.title{
+	min-height: 78px !important;
+}
+.title{
+	margin: 1px !important;
+}
+
+.title h1{
+	font-size: 13.5pt !important;
+	line-height: 12pt !important;
+	letter-spacing: 0.005em !important;
+}
+.title h4{
+	font-size: 8.5pt !important;
+	line-height: 9pt !important;
+	letter-spacing: 0.005em !important;
+}
+
+.logo  img{
+	/*width:55% !important;*/
+	margin-left: -7px !important;
+	margin-top: 7px !important;
+}
+.logo{
+	padding: 0px !important;
+}
+div.logo{
+	background-color: #fff!important;
+	width: 25% !important;
+	height: 78px !important;
+}
+
+.wedge{
+	right:80px !important;
+	height: 78px !important;
+	min-height: 50px !important;
+	width: 26px!important;
+	overflow: hidden;
+}
+
+.wedge img {
+
+}
+
+
+/********************* /mobile header ****************/
+
+/** mobile navigation ******************/
+
+
+
+
+
+/** /mobile navigation ******************/
+
+/********************* mobile slideshow ********************/
+.overlay {
+	background-position:center; 
+	position:absolute;
+	width:400px;
+	height:30px;
+	}
+
+
+/********************* mobile slideshow ********************/
+
+
 /* /mobile */
+/* REMOVE!! FOR DEV USE ONLY */
+body{
+	width:320px!important; 
+	height:372px !important;
+	background-color:#ff0000;
+}
 
-
+div.container-fluid{
+	width:320px!important; 
+	height:372px !important;
+	background-color:#fff;
+	}
+/* REMOVE!! FOR DEV USE ONLY */
 }
