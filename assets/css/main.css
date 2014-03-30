@@ -264,7 +264,7 @@ form.active {
 
 /* mobile */
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
 
 	body, .navbar-fixed-top{
 		padding: 0px!important;
@@ -416,17 +416,14 @@ div.logo{
 /* /mobile footer ***************/
 
 /* /mobile */
-/* REMOVE!! FOR DEV USE ONLY */
+
 body{
 	width:320px!important; 
-	height:372px !important;
-	background-color:#ff0000;
 }
 
 div.container-fluid{
 	width:320px!important; 
-	height:372px !important;
 	background-color:#fff;
 	}
-/* REMOVE!! FOR DEV USE ONLY */
+
 }
