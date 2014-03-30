@@ -71,9 +71,10 @@ background-color:transparent;
 	width: 105%;
 	max-width:125% !important;
 }
-.logo img {
-	width:100%\9;
-	max-width: 100%\9;
+.lt-ie9 .logo img {
+	width:100% !important;
+	max-width: 100% !important;
+	border-bottom: 1px solid #fff;
 }
 
 
