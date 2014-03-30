@@ -287,15 +287,18 @@ div.title{
 	min-height: 78px !important;
 }
 .title{
-	margin: 1px !important;
+	margin: 0px !important;
+	margin-top: 18px !important;
 }
 
 .title h1{
+	margin: 5px !important;
 	font-size: 13.5pt !important;
 	line-height: 12pt !important;
 	letter-spacing: 0.005em !important;
 }
 .title h4{
+	margin: 5px !important;
 	font-size: 8.5pt !important;
 	line-height: 9pt !important;
 	letter-spacing: 0.005em !important;
@@ -331,24 +334,86 @@ div.logo{
 /********************* /mobile header ****************/
 
 /** mobile navigation ******************/
-
+.navbar-form .btn{
+	background-image: url('../../images/mobile_search.png')!important;
+}
 
 
 
 
 /** /mobile navigation ******************/
 
+/*****mobile main div **************/
+
+.main{
+	margin-top: 78px !important;
+	min-height: 200px !important;
+}
+
+
+
+/** /mobile main div ***************/
+
+
+
+
 /********************* mobile slideshow ********************/
 .overlay {
-	background-position:center; 
+	background-image: none !important;
+	background-color: #dc3027;
 	position:absolute;
-	width:400px;
-	height:30px;
+	bottom:0px;
+	width:320px;
+	height:34px;
 	}
 
+.overlay h2{
+	text-align: center;
+	margin: 0px !important;
+	margin-top: 8px !important;
+	font-size:12pt !important ;
+	letter-spacing: normal !important;
+	line-height:12pt !important ;
+}
+
+.carousel-inner img{
+	height: 200px !important;
+}
 
 /********************* mobile slideshow ********************/
 
+/******mobile footer **************/
+
+.footer{
+	height:94px !important;
+}
+.footer .span12 p{
+	font-size: 7pt !important;
+	line-height: 12pt !important;
+	margin-left: 5px !important;
+	letter-spacing: normal !important;
+}
+.footer .span12 h5{
+	font-size: 7pt !important;
+	line-height: 12pt !important;
+	margin-bottom: 0px !important;
+	margin-left: 5px !important;
+	letter-spacing: normal !important;
+}
+
+.sobro {
+	margin-right: 10px !important;
+	margin-top: 5px !important;
+}
+
+.sobro img {
+	width: 95px !important;
+}
+
+.footer .span12 p.m-copy{
+	margin-top:5px !important;
+}
+/* /mobile footer ***************/
 
 /* /mobile */
 /* REMOVE!! FOR DEV USE ONLY */
