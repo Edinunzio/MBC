@@ -1,5 +1,5 @@
 body {
-	background-color: #fff;
+	background-color: #222;
 	color: #fff;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -92,6 +92,7 @@ background-color:transparent;
 
 /* main div */
 .main{
+	background-color: #fff;
 	margin-top: 134px;
 	overflow: hidden;
 	min-height: 500px;
