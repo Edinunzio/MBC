@@ -22,6 +22,12 @@ a:hover {
 .nav > li > a:hover, .nav > li > a:focus {
 background-color:transparent;
 }
+
+.wrapper{
+	width:940px !important;
+	margin: auto;
+}
+
 .container-fluid {
 	padding: 0px !important;
 }
@@ -115,7 +121,6 @@ background-color:transparent;
 .navbar-fixed-top{
 	margin-bottom: 0px !important;
 	width: 100% !important;
-	min-width: 1020px !important;
 	overflow:hidden;
 }
 
