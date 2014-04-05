@@ -35,7 +35,7 @@ background-color:transparent;
 .header{
 	display: block;
 	height: 134px!important;
-	min-width: 1050px;
+	width: 1050px;
 	margin-left: 0px !important;
 	background: #c5deea; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
