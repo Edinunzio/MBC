@@ -1,5 +1,5 @@
 body {
-	background-color: #fff;
+	background-color: #222;
 	color: #fff;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -57,6 +57,7 @@ background-color:transparent;
 	float: left;
 	margin-left: 10px;
 	width: 600px;
+	margin-bottom:14px;
 }
 
 .title h1{
@@ -78,7 +79,7 @@ background-color:transparent;
 	position: relative;
 	bottom: 170px;
 	right: 0px;
-	padding: 14px 0px 14px 8px;
+	padding: 15px 0px 16px 8px;
 }
 .brand{
 	display:block;
@@ -127,23 +128,30 @@ background-color:transparent;
 	margin-bottom: 0px !important;
 	width: 100% !important;
 	overflow:hidden;
-	background-color: #fff;
 }
 
 .headerbg{
 	height:134px;
-	/*width:50%;*/
+	width:50%;
 	float:left;
 	background: #0096d7;
 	margin:0px !important;
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index: 1029;
 }
 
 .whitebg{
 	background-color: #fff;
 	height:134px;
-	/*width:50%;*/
+	width:50%;
 	float:right;
 	margin:0px !important;
+	position: fixed;
+	top:0px;
+	right:0px;
+	z-index: 1028;
 }
 
 .navbar{
@@ -294,10 +302,12 @@ form.active {
 /* /home page slideshow */
 
 @media (max-width: 1250px) {
-.headerbg, .whitebg {
-	display: none;
-}
 
+.header, .wrapper {
+	/*width:100% !important;
+	max-width:100% !important;*/
+	margin-left: 0px !important;
+}
 
 
 
