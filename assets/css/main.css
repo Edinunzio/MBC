@@ -105,10 +105,10 @@ background-color:transparent;
 
 /* main div */
 .main{
-	background-color: #fff;
-	margin-top: 134px;
+	margin-top: 134px !important;
 	overflow: hidden;
 	background-color: #fff;
+	min-width:1050px;
 }
 .main h5{
 	color: #DC3027;
@@ -316,7 +316,9 @@ form.active {
 	max-width:100% !important;*/
 	margin-left: 0px !important;
 }
-
+.main {
+	min-width:100% !important;
+}
 
 
 }
@@ -327,6 +329,9 @@ form.active {
 	width:100%;
 }
 
+.main {
+	min-width:100% !important;
+}
 }
 
 
