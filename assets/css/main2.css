@@ -12,6 +12,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.row {
+	margin:0px !important;
+}
+
+
 a {
 	color: #fff;
 }
@@ -50,11 +55,11 @@ background-color:transparent;
 .title{
 	float: left;
 	margin-left: 10px;
-	min-width: 600px;
+	/*min-width: 600px;*/
 }
 
 .title h1{
-	font-size: 36px !important;
+	font-size: 300%;
 	line-height: 36px !important;
 	letter-spacing: .01em !important;
 	font-weight: normal !important;
@@ -121,7 +126,6 @@ background-color:transparent;
 .navbar-fixed-top{
 	margin-bottom: 0px !important;
 	width: 100% !important;
-	min-width: 1020px !important;
 	overflow:hidden;
 	background-color: #fff;
 }
@@ -131,6 +135,7 @@ background-color:transparent;
 	/*width:50%;*/
 	float:left;
 	background: #0096d7;
+	margin:0px !important;
 }
 
 .whitebg{
@@ -162,8 +167,8 @@ background-color:transparent;
 form.navbar-form {
 	position: relative;
 	left:-280px;
-	top:100px;
 	width:220px;
+	top:100px;
 }
 
 form.active {

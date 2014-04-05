@@ -30,7 +30,7 @@ background-color:transparent;
 .header{
 	display: block;
 	height: 134px!important;
-	max-width: 960px;
+	/*max-width: 960px;*/
 	margin:auto;
 	background: #c5deea; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -45,20 +45,20 @@ background-color:transparent;
 }
 
 .title{
-	margin-left: 5%;
+	margin-left: 15%;
 	margin-top:-3px;
-	width:700px;
+	/*width:700px;*/
 	float: left;
 }
 
 .title h1{
-	font-size: 36pt !important;
+	font-size: 300% !important;
 	line-height: 36pt !important;
 	letter-spacing: .01em !important;
 	font-weight: normal !important;
 }
 .title h4{
-	font-size: 22pt !important;
+	font-size: 200% !important;
 	line-height: 20pt !important;
 	font-weight: 400 !important;
 	font-style: italic !important;
@@ -181,15 +181,15 @@ form.active {
 	}
 
 .navbar .nav {
-	margin-left: 4%;
+	margin-left: 14%;
 	/*min-width: 940px;*/
 }
 
 .navbar .nav  li  a{
 	text-shadow: none!important;
 	color:#fff ;
-	font-size: 12pt;
-	line-height: 12pt;
+	font-size: 12px;
+	line-height: 12px;
 	text-transform: uppercase;
 	padding:0px;
 	margin:10px 15px 10px;
