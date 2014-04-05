@@ -99,7 +99,7 @@ background-color:transparent;
 
 /* main div */
 .main{
-	margin-top: 134px;
+	margin-top: 134px !important;
 	overflow: hidden;
 	background-color: #fff;
 }
