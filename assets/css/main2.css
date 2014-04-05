@@ -35,7 +35,7 @@ background-color:transparent;
 .header{
 	display: block;
 	height: 134px!important;
-	width: 1050px;
+	min-width: 1050px;
 	margin-left: 0px !important;
 	background: #c5deea; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -292,13 +292,8 @@ form.active {
 	margin-bottom: 0px !important;
 }
 /* /home page slideshow */
-@media (min-width: 1200px) {
-.headerbg, .whitebg {
-	/*width: 5%;*/
-}
-}
 
-@media (max-width: 1096px) {
+@media (max-width: 1250px) {
 .headerbg, .whitebg {
 	display: none;}
 }
