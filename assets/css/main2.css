@@ -238,7 +238,6 @@ form.active {
 .footer .span12 p{
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
-	margin-left: 5%;
 	color:#fff;
 	font-size: 13px !important;
 	line-height: 18px !important;
@@ -246,7 +245,6 @@ form.active {
 .footer .span12 h5{
 	line-height: 18px !important;
 	margin-bottom: 0px !important;
-	margin-left: 5%;
 }
 
 .footer .span12{
@@ -258,7 +256,7 @@ form.active {
 	margin-top: 10px;
 }
 .wrapper{
-	width:1050px;
+	max-width:1050px;
 	margin:auto;
 }
 
@@ -297,7 +295,32 @@ form.active {
 
 @media (max-width: 1250px) {
 .headerbg, .whitebg {
-	display: none;}
+	display: none;
+}
+.footer .span12 p{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	margin-left: 1%;
+	color:#fff;
+	font-size: 13px !important;
+	line-height: 18px !important;
+}
+.footer .span12 h5{
+	line-height: 18px !important;
+	margin-bottom: 0px !important;
+	margin-left: 1%;
+}
+
+.footer .span12{
+	margin-bottom: 10px !important;
+	
+}
+
+
+
+
+
+
 }
 /* mobile */
 
