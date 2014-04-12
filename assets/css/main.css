@@ -1,5 +1,4 @@
 body {
-	background-color: #222;
 	color: #fff;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -29,7 +28,7 @@ background-color:transparent;
 }
 
 .wrapper{
-	width:940px !important;
+	/*width:940px !important;*/
 	margin: auto;
 }
 
@@ -67,7 +66,7 @@ background-color:transparent;
 }
 
 .title h1{
-	font-size: 250%;
+	font-size: 36px;
 	line-height: 36px !important;
 	letter-spacing: .01em !important;
 	font-weight: normal !important;
@@ -104,6 +103,9 @@ background-color:transparent;
 /*  /header */
 
 /* main div */
+.container{
+min-width: 1050px;
+}
 .main{
 	margin-top: 134px !important;
 	overflow: hidden;
@@ -112,13 +114,22 @@ background-color:transparent;
 }
 .main h5{
 	color: #DC3027;
-	font-size: 13px;
-	line-height: 18px;
+	font-size: 20px;
+	line-height: 20px;
+	margin-left:165px;
+	margin-top:30px;
 }
 .main p{
 	color:#222;
+	font-size: 13px;
+	line-height: 18px;
 }
-.profiles{}
+
+.container .profiles{
+	margin-left:5px;
+}
+
+.profiles{width:100%;}
 
 .profiles img {
 	margin: auto;
@@ -127,6 +138,19 @@ background-color:transparent;
 
 .profiles div.row-fluid {
 	margin:10px auto;
+}
+
+.profiles .span8 {
+	width:620px;
+}
+
+.profiles .span12{
+	margin-left:-5px;
+}
+
+.profiles .span4{
+	margin-left: 6px;
+	width: 140px;
 }
 
 /*  /main div */
@@ -221,6 +245,7 @@ form.active {
 
 .navbar .nav {
 	/*min-width: 940px;*/
+	left:-5px;
 }
 
 .navbar .nav  li  a{
@@ -266,14 +291,20 @@ form.active {
 .footer .span12{
 	margin-bottom: 10px !important;
 	width:1050px;
+	margin-left:10px !important;
 }
 
 .sobro{
 	margin-top: 10px;
+	margin-right:70px;
 }
 .wrapper{
 	max-width:1050px;
 	margin:auto;
+}
+
+.footer .wrapper {
+	left: -5px;
 }
 
 /*   /footer */
@@ -306,6 +337,10 @@ form.active {
 
 .carousel {
 	margin-bottom: 0px !important;
+}
+
+a.carousel-control {
+	display: none;
 }
 /* /home page slideshow */
 
